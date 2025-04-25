@@ -20,3 +20,7 @@ HTML – Markup for structuring the webpage
 CSS – Styling and layout
 
 React Router  – For page navigation without reloads
+
+Make sure you have react in your system
+
+React installation
