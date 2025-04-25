@@ -1,0 +1,188 @@
+/* src/components/ResumeSection.css */
+
+.resume-section {
+    padding: 80px 50px;
+    background: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .resume-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .resume-details {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  /* Left Column for Work Experience and Education */
+  .left-column {
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
+  }
+  
+  .work-experience,
+  .education {
+    margin-bottom: 40px;
+  }
+  
+  .work-experience h3,
+  .education h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  /* Work Experience Cards */
+  .job-card {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .job-header h4 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  .job-period,
+  .edu-period {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .job-company {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .job-description {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Education Cards */
+  .edu-card {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .edu-header h4 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  .edu-institution {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .edu-details {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Skills Section */
+  .skills {
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
+  }
+  
+  .skills h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .skill {
+    margin-bottom: 20px;
+  }
+  
+  .skill-name {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .progress-bar {
+    background: #eee;
+    border-radius: 5px;
+    height: 25px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    background: #007bff;
+    height: 100%;
+    line-height: 25px;
+    color: #fff;
+    text-align: right;
+    padding-right: 10px;
+    border-radius: 5px;
+    transition: width 0.3s ease;
+  }
+  
+  .progress-label {
+    font-size: 0.9rem;
+  }
+  
+  /* Download CV Button */
+  .download-btn {
+    margin-top: 30px;
+    background: #007bff;
+    border: none;
+    padding: 12px 25px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .download-btn:hover {
+    background: #0056b3;
+  }
+  
+  /* Responsive Adjustments */
+  @media screen and (max-width: 768px) {
+    .resume-details {
+      flex-direction: column;
+      align-items: center;
+    }
+    .left-column,
+    .skills {
+      width: 100%;
+      text-align: center;
+    }
+    .job-header,
+    .edu-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  
